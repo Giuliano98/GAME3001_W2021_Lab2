@@ -17,8 +17,9 @@ Target::Target()
 	getRigidBody()->isColliding = false;
 
 	setType(TARGET);
+	getRigidBody()->isColliding = false;
 
-	SoundManager::Instance().load("../Assets/audio/yay.ogg", "yay", SOUND_SFX);
+	SoundManager::Instance().load("../Assets/audio/coinPick.wav", "coinPick", SOUND_SFX);
 }
 
 Target::~Target()

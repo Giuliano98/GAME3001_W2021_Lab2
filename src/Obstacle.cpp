@@ -6,7 +6,7 @@
 
 Obstacle::Obstacle()
 {
-	TextureManager::Instance()->load("../Assets/textures/obstacle.png", "obstacle");
+	TextureManager::Instance()->load("../Assets/textures/enemy.png", "obstacle");
 
 	auto size = TextureManager::Instance()->getTextureSize("obstacle");
 	setWidth(size.x);
@@ -17,7 +17,7 @@ Obstacle::Obstacle()
 	setType(OBSTACLE);
 	getRigidBody()->isColliding = false;
 
-	SoundManager::Instance().load("../Assets/audio/collision_SFX.wav", "yay", SOUND_SFX);
+	SoundManager::Instance().load("../Assets/audio/collision_SFX.wav", "boom", SOUND_SFX);
 }
 
 Obstacle::~Obstacle()
