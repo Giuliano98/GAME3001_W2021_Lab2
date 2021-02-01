@@ -3,5 +3,5 @@
 This is my lab 2 for GAME3001
 
 
-Name: Giuliano Venturo Gonzales
+Name: Giuliano Venturo Gonzales       
 Student ID: 101319819
